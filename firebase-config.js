@@ -1,12 +1,13 @@
 // Firebase configuration file
-// Replace with your project's config from Firebase Console
+// Using project config from Firebase Console
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyClB89Gpi9Q4xI82G9OMPPTbLip-ZtGXfI",
+  authDomain: "auth-test-html-js.firebaseapp.com",
+  projectId: "auth-test-html-js",
+  storageBucket: "auth-test-html-js.firebasestorage.app",
+  messagingSenderId: "857550809157",
+  appId: "1:857550809157:web:00109dca71dc905e42db2c",
+  measurementId: "G-V057TGS001"
 };
 
 // Initialize Firebase

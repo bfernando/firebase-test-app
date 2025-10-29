@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Firebase Auth + DB Test</title>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+</head>
+<body>
+  <h2>Firebase Authentication Test</h2>
+
+  <div id="auth">
+    <input id="email" placeholder="Email" type="email" /><br />
+    <input id="password" placeholder="Password" type="password" /><br />
+    <button onclick="signup()">Sign Up</button>
+    <button onclick="login()">Log In</button>
+    <button onclick="resetPassword()">Reset Password</button>
+    <button onclick="logout()">Log Out</button>
+  </div>
+
+  <hr />
+
+  <h3>Firestore Test Form</h3>
+  <div id="form">
+    <input id="name" placeholder="Name" />
+    <input id="message" placeholder="Message" />
+    <button onclick="submitData()">Submit</button>
+  </div>
+
+  <ul id="entries"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
